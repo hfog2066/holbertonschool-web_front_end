@@ -1,0 +1,1 @@
+This repository contains '0x00.Advanced HTML', tasks for Holberton School.
