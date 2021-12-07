@@ -56,6 +56,11 @@ body {
     line-height: var(--line-height-base);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
+
 a:link {
     color: var(--text-color);
     text-decoration: none;
@@ -71,15 +76,6 @@ a:hover {
 
 a:active {
     background-color: var(--color-light-grey);
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
-
-.visually-hidden {
-    display: none;
 }
 
 .card-category {
@@ -122,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-    wide: 960px;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -142,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.nav .nav-link {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -163,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 ul.row {
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    list-style: none;
 }
 
 .col-1-3 {
