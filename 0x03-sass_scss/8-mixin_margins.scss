@@ -1,0 +1,14 @@
+/* Write margin mixing */
+
+@mixin h-margin($margin) {
+    margin-left: $margin;
+    margin-right: $margin;
+}
+
+body {
+    @include h-margin(10px);
+}
+
+div {
+    @include h-margin(15px);
+}
