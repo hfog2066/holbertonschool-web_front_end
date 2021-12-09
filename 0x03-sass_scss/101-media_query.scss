@@ -1,0 +1,11 @@
+/* media query #0 Font size 14px to h1 tags, when your screen width is smaller than 320px */
+
+$fontSize20: 20px;
+$fontSize14: 14px;
+
+h1 {
+    font-size: $fontSize20;
+    @media screen and (max-width: 320px) {
+        font-size: $fontSize14;
+    }
+}
