@@ -1,0 +1,11 @@
+/* Nested hover Sass file that assigns */
+
+$colourButtonStandart: #FF0000;
+$colourButtonHover: #00FF00;
+
+button {
+    color: $colourButtonStandart;
+    &:hover {
+        color: $colourButtonHover;
+    }
+}
