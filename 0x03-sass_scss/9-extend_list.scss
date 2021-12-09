@@ -1,0 +1,19 @@
+/* Extend class info in classes success and warning */
+
+$fontSizeInfo: 12px;
+$colorSuccess: #00FF00;
+$colorWarning: #FF0000;
+
+.info {
+    font-size: $fontSizeInfo;
+}
+
+.success {
+    @extend .info;
+    color: $colorSuccess;
+}
+
+.warning {
+    @extend .info;
+    color: $colorWarning;
+}
