@@ -1,0 +1,15 @@
+/* Nested and nested again Sass file that assigns */
+
+$fontSize12: 12px;
+$fontSize14: 14px;
+$fontSize16: 16px;
+
+body {
+  font-size: $fontSize14;
+  h1 {
+    font-size: $fontSize16;
+    &.smaller {
+      font-size: $fontSize12;
+    }
+  }
+}
