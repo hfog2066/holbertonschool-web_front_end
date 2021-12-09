@@ -1,0 +1,23 @@
+/* Media query #1 */
+
+$colorText:  #1D1D1D;
+$fonSize20: 20px;
+$fonSize18: 18px;
+$fonSize16: 16px;
+$fonSize14: 14px;
+
+h1 {
+    font-size: $fonSize20;
+    @media screen and (max-width: 960px) {
+        font-size: $fonSize18;
+    }
+    @media screen and (max-width: 640px) {
+        font-size: $fonSize16;
+    }
+    @media screen and (max-width: 320px) {
+        font-size: $fonSize14;
+        &.small {
+            color: $colorText;
+        }
+    }
+}
