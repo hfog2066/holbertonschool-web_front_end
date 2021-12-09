@@ -1,0 +1,11 @@
+/* Nested Children Sass file that assigns */
+
+$colour1: #3D3D3D;
+$red: #FF0000;
+
+body {
+    color: $colour1;
+    > .red {
+        color: $red;
+    }
+}
