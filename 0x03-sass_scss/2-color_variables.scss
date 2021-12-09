@@ -1,0 +1,17 @@
+/* Assign colors using two variables */
+
+$colour1: #3D3D3D;
+$colour2: #6D6D6D;
+
+body {
+    color: $colour1;
+    background-color: $colour2;
+}
+
+p {
+    color: $colour1;
+}
+
+h2 {
+    background-color: $colour2;
+}
