@@ -3,7 +3,7 @@ This repository contains 0x0A. Bootstrap, tasks for Holberton School.
 
 <hr>
 
-##Tasks
+## Tasks
 
 <ol>
    <li>0. Reboot styling</li>
